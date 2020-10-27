@@ -85,7 +85,7 @@ We need to enable an admin user so we can easily upload our containers:
 
 ### Upload a MongoDB Container Image to the Container Registry
 
-We leverage pre-defined MongoDB images for this example. Please note that for production workloads, MongoDB Enterprise is recommended as it also offers capabilities like Encryption at Rest. *Always follow the guidelines outlined in [MongoDB's security checklist](https://docs.mongodb.com/manual/administration/security-checklist/).* There is a [Tutorial how to deploy MongoDB Enterprise via Docker](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-with-docker/) available.
+We leverage pre-defined MongoDB images for this example. Please note that for production workloads, MongoDB Enterprise is recommended as it also offers capabilities like Encryption at Rest. **Always follow the guidelines outlined in [MongoDB's security checklist](https://docs.mongodb.com/manual/administration/security-checklist/).** There is a [Tutorial how to deploy MongoDB Enterprise via Docker](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-with-docker/) available.
 
 *Note:* The Docker image used here contains all binaries of MongoDB. It would be recommended to limit to the MongoDB Server in order to reduce the size of the image.
 
@@ -311,5 +311,5 @@ db.timeseries.findOne()
 db.timeseries.count()
 ```
 
-*Note:* There are well-documented best practices for modelling time series data in MongoDB, please find them documented in a [whitepaper](https://www.mongodb.com/collateral/time-series-best-practices) as well as [code examples](https://github.com/ckurze/mongodb-iot-reference/tree/master/mongodb-timeseries).
+**Note:** There are well-documented best practices for modelling time series data in MongoDB, please find them documented in a [whitepaper](https://www.mongodb.com/collateral/time-series-best-practices) as well as [code examples](https://github.com/ckurze/mongodb-iot-reference/tree/master/mongodb-timeseries).
 
