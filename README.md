@@ -313,3 +313,7 @@ db.timeseries.count()
 
 **Note:** There are well-documented best practices for modelling time series data in MongoDB, please find them documented in a [whitepaper](https://www.mongodb.com/collateral/time-series-best-practices) as well as [code examples](https://github.com/ckurze/mongodb-iot-reference/tree/master/mongodb-timeseries).
 
+## Cleanup
+
+Don't forget to delete your resource group after you finished the tutorial.
+
